@@ -1,0 +1,6 @@
+tcpdump -D
+tcpdump -c  5 -i any
+tcpdump -c  5 -i any -n
+tcpdump -c  5 -i any -n -s64
+tcpdump -i any port 53 -n
+tcpdump -c 4 -i any port 53 -w dns.pcap -v
